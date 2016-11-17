@@ -11,11 +11,11 @@
 ###5.	What steps should the development team take to fix this vulnerability?
   The simple way to fix that is to add XSS protect function. Developer may conduct a checking inspection that does not allow any JavaScript statements, symbols or HTML tags in the input box.
 ###A.	The URL of the website with the described vulnerability.
-  TestURL:http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28"This is attact"%29%3B&id=0
+  TestURL:http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28%22This%20is%20attact%22%29%3B&id=0
 ###B.	Steps taken to exploit the vulnerability.
   First, change the original URL: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=ads%2fdef.html&id=0
-To: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28"This is attact"%29%3B&id=0
-Second, press Enter;
+    To: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28%22This%20is%20attact%22%29%3B&id=0
+  Second, press Enter;
 ###C.	A screenshot (if applicable) of the vulnerability.
 
 
