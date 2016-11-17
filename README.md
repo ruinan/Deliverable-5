@@ -39,8 +39,8 @@ Second, input “ZAP' OR '1'='1' –“ to the password box, then type any usern
 Third, click LOGIN button.
 ###C. A screenshot (if applicable) of the vulnerability.
 I will got the admin access.
-![Alt text](https://github.com/ruinan/Deliverable-5/blob/master/screenshots/vulnerability2-1.png)
 ![Alt text](https://github.com/ruinan/Deliverable-5/blob/master/screenshots/vulnerability2-2.png)
+![Alt text](https://github.com/ruinan/Deliverable-5/blob/master/screenshots/vulnerability2-1.png)
 
 ##Vulnerability 3: Directory Browsing
 ###1.	What part of the InfoSec Triad does this vulnerability attack (confidentiality, integrity, or availability)?
