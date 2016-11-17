@@ -21,14 +21,13 @@ Fabrication
 The unauthorized user will access administrator account. It means user will obtain some authorities that would control whole site.
 4.	What steps should the development team take to fix this vulnerability?
 I think the way to fix the vulnerability is like the method for fixing the previous vulnerability. First, developer needs to install some checking mechanism to make sure what input is in accordance with the rules. Second, the database should set a firewall.
-
-A.  The URL of the website with the described vulnerability.
+A. The URL of the website with the described vulnerability.
 Test URL: http://demo.testfire.net/bank/login.aspx.
-B.  Steps taken to exploit the vulnerability.
+B. Steps taken to exploit the vulnerability.
 First, click the ONLINE BANKING LOGIN link;
 Second, input “ZAP' OR '1'='1' –“ to the password box, then type any username you want.
 Third, click LOGIN button.
-C.	A screenshot (if applicable) of the vulnerability.
+C. A screenshot (if applicable) of the vulnerability.
 I will got the admin access.
 
 
