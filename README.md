@@ -20,8 +20,8 @@ Fabrication
 3.	What business value would be lost due to exploiting this vulnerability (data loss, unauthorized access, denial of service, etc)?
 The unauthorized user will access administrator account. It means user will obtain some authorities that would control whole site.
 4.	What steps should the development team take to fix this vulnerability?
-I think the way to fix the vulnerability is like the method for fixing the previous vulnerability. First, developer needs to install some checking mechanism to make sure what input is in accordance with the rules. Second, the database should set a firewall 
----
+I think the way to fix the vulnerability is like the method for fixing the previous vulnerability. First, developer needs to install some checking mechanism to make sure what input is in accordance with the rules. Second, the database should set a firewall.
+
 A.	The URL of the website with the described vulnerability.
 Test URL: http://demo.testfire.net/bank/login.aspx
 B.	Steps taken to exploit the vulnerability.
